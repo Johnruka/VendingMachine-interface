@@ -80,6 +80,11 @@ public class IVendingMachine implements VendingMachine {
 
     @Override
     public String[] getProducts() {
-        return new String[0];
+        String[] productsAsString = new String[products.length];
+        for (int i = 0; i < products.length; i++) {
+            productsAsString[i] = products[i].examine().concat(" price: " + products[i].getPrice());
+        }
+        return productsAsString;
+
     }
 }
