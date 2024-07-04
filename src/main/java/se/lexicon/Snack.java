@@ -50,6 +50,5 @@ public class Snack implements Product {
         this.price = price;
 
 
-
     }
 }
