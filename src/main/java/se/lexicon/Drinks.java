@@ -13,7 +13,7 @@ public class Drinks implements Product {
    }
     @Override
     public String examine() {
-        return "";
+        return "{ id: " + id + ", drinks: " + drinksName + " with " +  " volume }";
     }
 
     @Override
