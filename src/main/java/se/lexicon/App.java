@@ -10,10 +10,10 @@ public class App {
                 new Drinks(4, "Mango", 1L, 50),
                 new Drinks(5, "Orange", 1L, 50),
                 new Drinks(6, "Apple", 1L, 50),
-                new Snack(30, "Chocolate"),
-                new Snack(30, "Gnuts"),
-                new Snack(30, "Chips"),
-                new Snack(45, "Muffin"),
+                new Snack(7,30, "Chocolate"),
+                new Snack(8,30, "Gnuts"),
+                new Snack(9,30, "Chips"),
+                new Snack(10,45, "Muffin"),
 
 
         };
