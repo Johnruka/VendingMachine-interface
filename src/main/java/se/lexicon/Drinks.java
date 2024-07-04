@@ -29,11 +29,12 @@ public class Drinks implements Product {
 
     @Override
     public String getProductName() {
-        return "";
+        return drinksName;
     }
 
     @Override
     public void setProductName(String productName) {
+        this.drinksName = productName;
 
     }
 
