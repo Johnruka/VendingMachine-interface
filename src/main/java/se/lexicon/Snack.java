@@ -46,8 +46,6 @@ public class Snack implements Product {
     }
 
     @Override
-    public void setPrice(double price) {
-        this.price = price;
 
 
     }
