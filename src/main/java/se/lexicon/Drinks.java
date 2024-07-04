@@ -40,11 +40,12 @@ public class Drinks implements Product {
 
     @Override
     public double getPrice() {
-        return 0;
+        return price;
     }
 
     @Override
     public void setPrice(double price) {
+        this.price = price;
 
     }
 }
