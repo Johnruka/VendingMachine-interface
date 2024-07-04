@@ -26,12 +26,12 @@ public class Snack implements Product {
 
     @Override
     public int getId() {
-        return 0;
+        return id;
     }
 
     @Override
     public String getProductName() {
-        return "";
+        return snack;
     }
 
     @Override
