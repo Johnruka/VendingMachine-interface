@@ -4,12 +4,12 @@ package se.lexicon;
 public class App {
     public static void main(String[] args) {
         Product[] products = {
-                new Drinks("Fanta", 1L, 50),
-                new Drinks("Sprite", 1L, 50),
-                new Drinks("Coca-Cola", 1L, 50),
-                new Drinks("Mango", 1L, 65),
-                new Drinks("Orange", 1L, 65),
-                new Drinks("Apple", 1L, 65),
+                new Drinks(1, "Fanta", 1L,50),
+                new Drinks(2, "Sprite",1L ,50),
+                new Drinks(3, "Coca-Cola",1L ,50),
+                new Drinks(4, "Mango", 1L,50),
+                new Drinks(5, "Orange", 1L,50),
+                new Drinks(6, "Apple", 1L,50),
                 new Snack(30, "Chocolate"),
                 new Snack(30, "Gnuts"),
                 new Snack(30, "Chips"),

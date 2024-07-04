@@ -7,8 +7,12 @@ public class Drinks implements Product {
     private String volume;
     private double price;
 
-    public Drinks(String drinksName, long volume, double price) {
+    public Drinks(int id,String drinksName, long volume, double price) {
         this.id = productSequencer.nextId();
+        this.drinksName = drinksName;
+        this.price = price;
+
+
 
    }
     @Override
