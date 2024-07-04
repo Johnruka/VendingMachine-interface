@@ -69,7 +69,13 @@ public class IVendingMachine implements VendingMachine {
 
     @Override
     public String getDescription(int id) {
-        return "";
+        Product product = findProductById(id);
+        if (product != null) {
+            return product.examine() + " price: " + product.getPrice();
+        } else {
+            return "Product not found with id: " + id;
+        }
+
     }
 
     @Override
