@@ -18,7 +18,8 @@ public class Drinks implements Product {
 
     @Override
     public String use() {
-        return "";
+        String description = drinksName;
+        return description;
     }
 
     @Override
