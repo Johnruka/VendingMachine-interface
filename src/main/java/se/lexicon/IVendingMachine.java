@@ -8,7 +8,8 @@ public class IVendingMachine implements VendingMachine {
 
     public IVendingMachine(Product[] products) {
         this.products = products;
-}
+    }
+
     @Override
     public void addCurrency(int amount) {
         if (isValidDenomination(amount)) {
