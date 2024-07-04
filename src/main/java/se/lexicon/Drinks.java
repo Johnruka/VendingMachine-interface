@@ -7,7 +7,7 @@ public class Drinks implements Product {
     private String volume;
     private double price;
 
-    public Drinks(String drinksName,String volume, double price) {
+    public Drinks(String drinksName, long volume, double price) {
         this.id = productSequencer.nextId();
 
    }

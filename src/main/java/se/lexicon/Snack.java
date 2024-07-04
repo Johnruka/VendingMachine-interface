@@ -6,7 +6,7 @@ public class Snack implements Product {
     private double price;
     private String snack;
 
-    public Snack(int id, int price, String snack) {
+    public Snack(int price, String snack) {
 
         this.id = productSequencer.nextId();
         this.price = price;
