@@ -36,16 +36,19 @@ public class Snack implements Product {
 
     @Override
     public void setProductName(String productName) {
+        this.snack = productName;
 
     }
 
     @Override
     public double getPrice() {
-        return 0;
+        return price;
     }
 
     @Override
     public void setPrice(double price) {
+        this.price = price;
+
 
     }
 }
