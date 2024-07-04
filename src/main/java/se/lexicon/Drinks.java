@@ -24,7 +24,7 @@ public class Drinks implements Product {
 
     @Override
     public int getId() {
-        return 0;
+        return id;
     }
 
     @Override
